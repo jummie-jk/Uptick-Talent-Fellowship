@@ -15,7 +15,7 @@ function HeroSection() {
         <div className="font-normal pt-20">
             <h1 className="text-[2.3rem] font-PTSans">
             Hi,
-            <br /> I am <span className="text-lightb">J</span>ummie,
+            <br /> I am <span className="text-lightb">J</span>ummieeeeeeeeeeeeeeeeeee,
             <br /> A Creative{" "}
             <span className="text-lightb font-extrabold">Frontend Developer</span>
             </h1>
