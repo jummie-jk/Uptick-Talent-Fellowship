@@ -31,9 +31,9 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/resume" className="px-8">
-                  Resume
-                </Link>
+                <a href="https://github.com/jummie-jk" className="px-8">
+                  Github
+                </a>
               </li>
             </ul>
           </div>

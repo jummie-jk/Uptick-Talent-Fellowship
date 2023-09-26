@@ -17,13 +17,13 @@ const Footer = () => {
             <p>Copyright 2023</p>
          </div>
          <div className="flex flex-row">
-            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
+            <a href="http://www.linkedin.com/in/olajumokeipoola" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="https://www.facebook.com/your-facebook-profile" target="_blank" rel="noopener noreferrer" className="px-12">
+            <a href="https://www.facebook.com/olajumoke.ipoola.7" target="_blank" rel="noopener noreferrer" className="px-12">
                 <FontAwesomeIcon icon={faFacebook} />
             </a>
-            <a href="https://twitter.com/your-twitter-profile" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/Jummie_jk?t=rzCwLg7tncoEiY_0TWwNUA&s=08" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTwitter} />
             </a>
         </div>
