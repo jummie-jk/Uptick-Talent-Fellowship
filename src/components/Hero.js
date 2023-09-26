@@ -7,6 +7,7 @@ import Technologies from "./Technologies";
 import Projects from "./Projects";
 import { motion } from "framer-motion";
 import Contact from "./Contact";
+import Footer from "./footer";
 
 function HeroSection() {
   return (
@@ -47,6 +48,7 @@ function HeroSection() {
       <Technologies />
       <Projects />
       <Contact/>
+      <Footer/>
     </>
   );
 }

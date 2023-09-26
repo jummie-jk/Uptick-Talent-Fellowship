@@ -1,11 +1,10 @@
 import React from "react";
-import Lawfirm from "./Images/lawfirnNN.png";
-import cryptous from "./Images/cryptousN.png"
+import Lawfirm from "./Images/lawfirmN.png";
+import cryptous from "./Images/cryptousNN.png"
 import gallery from "./Images/galleryN.png"
 import herlign from "./Images/herlignN.png"
 import herrands from "./Images/herrandsN.png"
 import Button from "./Button";
-
 const Projects = () => {
 
   return (
@@ -50,7 +49,7 @@ const Projects = () => {
                             </Button>
                         </div>
                     </div>
-                    <div className="pl-24">
+                    <div className="pl-14">
                         <img src={cryptous} alt="A lawfirm" className=""></img>
                     </div>
                 </div>
@@ -92,7 +91,7 @@ const Projects = () => {
                 </div>
                 <div className="flex flex-row">
                     <div>
-                        <img src={herrands} alt="A lawfirm" className="w-[45rem] h-[20rem]"></img>
+                        <img src={herrands} alt="A lawfirm" className=""></img>
                     </div>
                     <div className="text-white pl-12 font-inter" >
                         <p className="text-[1rem]">05</p>
