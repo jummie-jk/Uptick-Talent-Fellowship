@@ -4,7 +4,6 @@ import cryptous from "./Images/cryptousNN.png"
 import gallery from "./Images/galleryN.png"
 import herlign from "./Images/herlignN.png"
 import herrands from "./Images/herrandsN.png"
-import Button from "./Button";
 const Projects = () => {
 
   return (
@@ -27,11 +26,19 @@ const Projects = () => {
                         <p className="text-[0.8rem] pb-2">Samson and Gretel is your trusted legal partner, providing top-tier legal <br></br>services with a commitment to integrity and excellence.</p>
                         <p className="text-[0.8rem]">Stack/Tools: HTML, CSS, JavaScript, Vercel, Git & Github</p>
                         <div className="pt-4">
-                        <Button
+                        <a
+                            href="https://samson-gretel-law-firm.vercel.app/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
                             className="bg-lightb hover:bg-blue-700 text-white mt-8 font-bold py-2 px-6 font-inter"
-                            to="/signup">
+                            >
                             Open Project
-                            </Button>
+                        </a>
+                        {/* <Button
+                            className="bg-lightb hover:bg-blue-700 text-white mt-8 font-bold py-2 px-6 font-inter"
+                            to="https://samson-gretel-law-firm.vercel.app/">
+                            Open Project
+                            </Button> */}
                         </div>
                     </div>
                 </div>

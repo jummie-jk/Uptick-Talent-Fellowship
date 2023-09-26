@@ -3,6 +3,7 @@ import React from "react";
 
 const Footer = () => {
 
+
   return (
     <>
       <div className=" bg-blue-secondary text-white  py-12 overflow-y-hidden font-PTSans">
