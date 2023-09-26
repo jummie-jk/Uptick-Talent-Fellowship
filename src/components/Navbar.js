@@ -11,7 +11,7 @@ const Navbar = () => {
           <div>
             <ul className="flex flex-row font-medium text-base">
               <li>
-                <Link to="/about" className="px-8">
+                <Link to="about" className="px-8">
                   About
                 </Link>
               </li>

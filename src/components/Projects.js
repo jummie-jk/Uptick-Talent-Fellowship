@@ -15,12 +15,12 @@ const Projects = () => {
           </p>
         </div>
        <div>
-            <div className="px-12 py-12">
-                <div className="flex flex-row">
-                    <div>
-                        <img src={Lawfirm} alt="A lawfirm" className="scale-100 hover:scale-105"></img>
+            <div className="px-12 ">
+                <div className="flex flex-row justify-center py-16">
+                    <div className="pr-8">
+                        <img src={Lawfirm} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem]"></img>
                     </div>
-                    <div className="text-white pl-12 font-inter" >
+                    <div className="text-white font-inter pl-8" >
                         <p className="text-[1rem]">01</p>
                         <p className="text-[1.5rem] pb-4">Samson and Gretel Law firm</p>
                         <p className="text-[0.8rem] pb-2">Samson and Gretel is your trusted legal partner, providing top-tier legal <br></br>services with a commitment to integrity and excellence.</p>
@@ -42,11 +42,11 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row py-12">
-                    <div className="text-white font-inter" >
+                <div className="flex flex-row py-16 justify-center">
+                    <div className="text-white font-inter pr-8" >
                         <p className="text-[1rem]">02</p>
                         <p className="text-[1.5rem] pb-4">Cryptous</p>
-                        <p className="text-[0.8rem] pb-2">Cryptous provides a up-to-date daily coin information sourced from a reliable<br></br> API,also offering a glimpse into the latest trends, market data, and price 7 most search coins.</p>
+                        <p className="text-[0.8rem] pb-2">Cryptous provides a up-to-date daily coin information sourced from a reliable<br></br> API,also offering a glimpse into the latest trends, market data, and price 7 <br></br>most search coins.</p>
                         <p className="text-[0.8rem]">Stack/Tools: React,CSS, Vercel, Coingecko API, Git & Github</p>
                         <div className="pt-4">
                         <a
@@ -64,15 +64,15 @@ const Projects = () => {
                             </Button> */}
                         </div>
                     </div>
-                    <div className="pl-14">
-                        <img src={cryptous} alt="A lawfirm" className="scale-100 hover:scale-105"></img>
+                    <div className="pl-8">
+                        <img src={cryptous} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem]"></img>
                     </div>
                 </div>
-                <div className="flex flex-row">
-                    <div>
-                        <img src={gallery} alt="A lawfirm" className="scale-100 hover:scale-105"></img>
+                <div className="flex flex-row justify-center py-16">
+                    <div className="pr-8">
+                        <img src={gallery} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem]"></img>
                     </div>
-                    <div className="text-white pl-12 font-inter" >
+                    <div className="text-white pl-8 font-inter " >
                         <p className="text-[1rem]">03</p>
                         <p className="text-[1.5rem] pb-4">Photo Fusion</p>
                         <p className="text-[0.8rem] pb-2">A dynmaic gallery website that allows users to signIn, check beautiful pictures,<br></br> rearrange gallery and search for pictures of interest </p>
@@ -94,11 +94,11 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-row py-12">
-                    <div className="text-white font-inter" >
+                <div className="flex flex-row py-16 justify-center">
+                    <div className="text-white font-inter pr-8" >
                         <p className="text-[1rem]">04</p>
                         <p className="text-[1.5rem] pb-4">Herlign</p>
-                        <p className="text-[0.8rem] pb-2">Herlign is a venture studio and a wellness gathering.<br></br>This is an official website showing all the details about the organisation.</p>
+                        <p className="text-[0.8rem] pb-2">Herlign is a venture studio and a wellness gathering.<br></br>This is an official website showing all the details about the organisation/company.</p>
                         <p className="text-[0.8rem]">Stack/Tools: React, Tailwincss, Gatsby, Vercel, Git & Github</p>
                         <div className="pt-4">
                         <a
@@ -116,15 +116,15 @@ const Projects = () => {
                             </Button> */}
                         </div>
                     </div>
-                    <div className="pl-24">
-                        <img src={herlign} alt="A lawfirm" className="scale-100 hover:scale-105"></img>
+                    <div className="pl-8">
+                        <img src={herlign} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem]"></img>
                     </div>
                 </div>
-                <div className="flex flex-row">
-                    <div>
-                        <img src={herrands} alt="A lawfirm" className="scale-100 hover:scale-105"></img>
+                <div className="flex flex-row justify-center py-16">
+                    <div className="pr-8">
+                        <img src={herrands} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem]"></img>
                     </div>
-                    <div className="text-white pl-12 font-inter" >
+                    <div className="text-white pl-8 font-inter" >
                         <p className="text-[1rem]">05</p>
                         <p className="text-[1.5rem] pb-4">Herrands</p>
                         <p className="text-[0.8rem] pb-2">This is a website where you can sriders on errands while you save time.</p>
@@ -138,11 +138,7 @@ const Projects = () => {
                             >
                             Open Project
                         </a>
-                        {/* <Button
-                            className="bg-lightb hover:bg-blue-700 text-white mt-8 font-bold py-2 px-6 font-inter"
-                            to="/signup">
-                            Open Project
-                         </Button> */}
+    
                         </div>
                     </div>
                 </div>
