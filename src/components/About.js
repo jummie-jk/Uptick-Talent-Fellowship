@@ -7,7 +7,7 @@ const About = () => {
       <div className=" bg-blue-secondary text-white px-28 h-[35rem] flex flex-row justify-between py-24 font-PTSans">
         <div>
           <p className="underline underline-offset-8 decoration-4 decoration-lightb text-[2.1rem] ">
-            About Me
+            About Meeee
           </p>
           <p className="text-lightb font-extrabold text-[2.5rem]">Olajumoke Ipoola</p>
           <p className="text-[1rem] font-inter">
