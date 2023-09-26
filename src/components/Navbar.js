@@ -11,27 +11,27 @@ const Navbar = () => {
           <div>
             <ul className="flex flex-row font-medium text-base">
               <li>
-                <Link to="/" className="px-8">
+                <Link to="/about" className="px-8">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="px-8">
+                <Link to="/projects" className="px-8">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="px-8">
+                <Link to="/technologies" className="px-8">
                   Technologies
                 </Link>
               </li>
               <li>
-                <Link to="/crypto" className="px-8">
+                <Link to="/contact" className="px-8">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="px-8">
+                <Link to="/resume" className="px-8">
                   Resume
                 </Link>
               </li>
