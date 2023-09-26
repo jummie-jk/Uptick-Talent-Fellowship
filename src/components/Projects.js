@@ -18,7 +18,7 @@ const Projects = () => {
             <div className="px-12 py-12">
                 <div className="flex flex-row">
                     <div>
-                        <img src={Lawfirm} alt="A lawfirm" className=""></img>
+                        <img src={Lawfirm} alt="A lawfirm" className="scale-100 hover:scale-105"></img>
                     </div>
                     <div className="text-white pl-12 font-inter" >
                         <p className="text-[1rem]">01</p>
@@ -65,12 +65,12 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="pl-14">
-                        <img src={cryptous} alt="A lawfirm" className=""></img>
+                        <img src={cryptous} alt="A lawfirm" className="scale-100 hover:scale-105"></img>
                     </div>
                 </div>
                 <div className="flex flex-row">
                     <div>
-                        <img src={gallery} alt="A lawfirm" className=""></img>
+                        <img src={gallery} alt="A lawfirm" className="scale-100 hover:scale-105"></img>
                     </div>
                     <div className="text-white pl-12 font-inter" >
                         <p className="text-[1rem]">03</p>
@@ -117,12 +117,12 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="pl-24">
-                        <img src={herlign} alt="A lawfirm" className=""></img>
+                        <img src={herlign} alt="A lawfirm" className="scale-100 hover:scale-105"></img>
                     </div>
                 </div>
                 <div className="flex flex-row">
                     <div>
-                        <img src={herrands} alt="A lawfirm" className=""></img>
+                        <img src={herrands} alt="A lawfirm" className="scale-100 hover:scale-105"></img>
                     </div>
                     <div className="text-white pl-12 font-inter" >
                         <p className="text-[1rem]">05</p>
