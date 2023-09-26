@@ -11,7 +11,7 @@ const Technologies = () => {
             Technologies
           </p>
           <p className="text-[1rem] font-inter pt-2">
-            Over the years, I have worked with a list of vast technologies
+            Over the years, I have worked with a list of vast technologies and tools
             <br />
             which includes HTML, JavaScript, React, CSS, SASS, Tailwincss, git
             and github e.t.c{" "}

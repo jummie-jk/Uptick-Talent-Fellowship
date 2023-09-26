@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="pt-6">
+      <div className="pt-8">
         <nav className=" flex flex-row justify-between font-PTSans">
           <div >
             <p className="text-lightb text-lg font-bold">{`<Jummie/>`}</p>
