@@ -20,7 +20,7 @@ const Contact = () => {
             Contact me
           </p>
         </div>
-        <div className=" font-inter py-8 pl-28">
+        <div className=" font-inter py-8 pl-28 ">
             <p><span className="font-500">Email: </span>jumokeipoola2019@gmail.com</p>
             <p><span>Phone Number:</span> +234-907-219-809-0</p>
             <div className="pt-4">

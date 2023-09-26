@@ -29,7 +29,7 @@ function HeroSection() {
             </h1>
             <Button
               className="bg-lightb hover:bg-blue-700 text-white mt-8 font-bold py-2 px-6 font-inter"
-              to="/signup"
+              to="/projects"
             >
               See Projects
             </Button>
