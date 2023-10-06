@@ -23,3 +23,33 @@ code {
 .grayscale:hover {
   filter: grayscale(0%);
 }
+/* @media (max-width: 639px) {
+  .lg\:block {
+    display: none;
+  }
+} */
+@media (max-width: 700px) {
+  .hide-image {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .max-w-700 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+  }
+}
+
+
+@media (max-width: 800px) {
+  .image-main{
+    padding-left: 0;
+    padding-top: 2rem;
+  }
+}
+
+
+

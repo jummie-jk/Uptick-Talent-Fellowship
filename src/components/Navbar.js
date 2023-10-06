@@ -9,9 +9,9 @@ const Navbar = () => {
             <p className="text-lightb text-lg font-bold">{`<Jummie/>`}</p>
           </div>
           <div>
-            <ul className="flex flex-row font-medium text-base">
+            <ul className="flex flex-row font-medium text-base hide-image">
               <li>
-                <Link to="about" className="px-8">
+                <Link to="/about" className="px-8">
                   About
                 </Link>
               </li>

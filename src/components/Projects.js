@@ -18,7 +18,7 @@ const Projects = () => {
             <div className="px-12 ">
                 <div className="flex flex-row justify-center py-16">
                     <div className="pr-8">
-                        <img src={Lawfirm} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem]"></img>
+                        <img src={Lawfirm} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem] hide-image"></img>
                     </div>
                     <div className="text-white font-inter pl-8" >
                         <p className="text-[1rem]">01</p>
@@ -65,12 +65,12 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="pl-8">
-                        <img src={cryptous} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem]"></img>
+                        <img src={cryptous} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem] hide-image" ></img>
                     </div>
                 </div>
                 <div className="flex flex-row justify-center py-16">
                     <div className="pr-8">
-                        <img src={gallery} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem]"></img>
+                        <img src={gallery} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem] hide-image"></img>
                     </div>
                     <div className="text-white pl-8 font-inter " >
                         <p className="text-[1rem]">03</p>
@@ -117,12 +117,12 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="pl-8">
-                        <img src={herlign} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem]"></img>
+                        <img src={herlign} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem] hide-image"></img>
                     </div>
                 </div>
                 <div className="flex flex-row justify-center py-16">
                     <div className="pr-8">
-                        <img src={herrands} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem]"></img>
+                        <img src={herrands} alt="A lawfirm" className="scale-100 hover:scale-105 w-[35rem] h-[13rem] hide-image"></img>
                     </div>
                     <div className="text-white pl-8 font-inter" >
                         <p className="text-[1rem]">05</p>
@@ -138,7 +138,6 @@ const Projects = () => {
                             >
                             Open Project
                         </a>
-    
                         </div>
                     </div>
                 </div>
