@@ -1,6 +1,6 @@
 import React from "react";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HeroSection from "./components/Hero";
 import About from "./components/About";
 import './App.css';
@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/"  element={<HeroSection />} />
         <Route path="/about" name="about" Component={About} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/technologies" element={<Technologies />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </Router>
+      </BrowserRouter>
 
     </>
   );

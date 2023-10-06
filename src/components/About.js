@@ -11,7 +11,7 @@ const About = () => {
         transition={{ duration: 1 }}
         className=" bg-blue-secondary text-white px-28 section-mobile flex flex-row justify-between max-w-700 py-24 font-PTSans"
       >
-        <div>
+        <div id="about">
           <p className="underline underline-offset-8 decoration-4 decoration-lightb text-[2.1rem] main-text-mobile">
             About Me
           </p>

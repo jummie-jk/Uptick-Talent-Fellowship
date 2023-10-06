@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="pt-8">
         <nav className=" flex flex-row justify-between font-PTSans">
           <div >
-            <p className="text-lightb text-lg font-bold">{`<Jummie/>`}</p>
+            <p className="text-lightb text-lg hero-logo font-bold">{`<Jummie/>`}</p>
           </div>
           <div>
             <ul className="flex flex-row font-medium text-base hide-image">
