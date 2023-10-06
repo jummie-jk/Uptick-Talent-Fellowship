@@ -15,12 +15,12 @@ const Contact = () => {
   return (
     <>
       <div className=" bg-blue-primary text-white  py-12 overflow-y-hidden font-PTSans">
-        <div className="px-28">
+        <div className="px-28 section-mobile">
           <p className="underline underline-offset-8 decoration-4 decoration-lightb text-[2.1rem] ">
             Contact me
           </p>
         </div>
-        <div className=" font-inter py-4 pl-28 text-[0.8rem] ">
+        <div className=" font-inter py-4 pl-28 mobile-footer text-[0.8rem] ">
             <p><span className="">Email: </span>jumokeipoola2019@gmail.com</p>
             <p><span>Phone Number:</span> +234-907-219-809-0</p>
             <div className="pt-4">

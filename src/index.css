@@ -41,6 +41,26 @@ code {
     align-items: center;
 
   }
+  .hero-text{
+    font-size: 1.8rem;
+    line-height: 3rem ;
+  }
+  .hero-btn{
+    margin-top: 4rem;
+  }
+  .section-mobile{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .mobile-text{
+    font-size: 2rem;
+  }
+  .main-text-mobile{
+    font-size: 2rem;
+  }
+  .mobile-footer{
+    padding-left: 4rem;
+  }
 }
 
 
@@ -48,6 +68,7 @@ code {
   .image-main{
     padding-left: 0;
     padding-top: 2rem;
+    padding-left: 0rem;
   }
 }
 

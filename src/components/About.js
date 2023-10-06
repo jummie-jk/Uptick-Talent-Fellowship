@@ -9,13 +9,13 @@ const About = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className=" bg-blue-secondary text-white px-28 flex flex-row justify-between max-w-700 py-24 font-PTSans"
+        className=" bg-blue-secondary text-white px-28 section-mobile flex flex-row justify-between max-w-700 py-24 font-PTSans"
       >
         <div>
-          <p className="underline underline-offset-8 decoration-4 decoration-lightb text-[2.1rem]">
+          <p className="underline underline-offset-8 decoration-4 decoration-lightb text-[2.1rem] main-text-mobile">
             About Me
           </p>
-          <p className="text-lightb font-extrabold text-[2.5rem] pt-2">Olajumoke Ipoola</p>
+          <p className="text-lightb font-extrabold text-[2.5rem] mobile-text pt-2">Olajumoke Ipoola</p>
           <p className="text-1rem font-inter pt-4">
             I'm a passionate and creative Frontend Developer with a strong
             desire to bring ideas to life through web development. With a love

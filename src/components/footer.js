@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <div className=" bg-blue-secondary text-white  py-12 overflow-y-hidden font-PTSans">
-        <div className="px-28 flex flex-row justify-between">
+        <div className="px-28 section-mobile flex flex-row justify-between">
          <div>
             <p>Copyright 2023</p>
          </div>

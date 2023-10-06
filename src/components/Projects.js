@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <>
       <div className=" bg-blue-secondary text-white  pt-12 overflow-y-hidden font-PTSans">
-        <div className="px-28">
+        <div className="px-28 section-mobile">
           <p className="underline underline-offset-8 decoration-4 decoration-lightb text-[2.1rem] ">
             Projects
           </p>

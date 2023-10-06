@@ -12,7 +12,7 @@ import Footer from "./footer";
 function HeroSection() {
   return (
     <>
-      <div className="bg-blue-primary text-white px-16 h-[36rem]">
+      <div className="bg-blue-primary text-white px-16 h-[36rem] sm:px-12">
         <Navbar />
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -20,15 +20,15 @@ function HeroSection() {
           transition={{ duration: 1 }}
           className="flex flex-col sm:flex-row justify-between items-center "
         >
-          <div className="font-normal text-center sm:text-left pt-12 sm:pt-12">
-            <h1 className="text-[2.7rem] font-PTSans">
+          <div className="font-normal text-center sm:text-left pt-12">
+            <h1 className="text-[2.7rem] font-PTSans  hero-text">
               Hi,
               <br /> I am <span className="text-lightb">J</span>ummie,
               <br /> A Creative{" "}
               <span className="text-lightb font-extrabold">Frontend Developer</span>
             </h1>
             <Button
-              className="bg-lightb hover:bg-blue-700 text-white mt-8 font-bold py-2 px-6 font-inter"
+              className="bg-lightb hover:bg-blue-700 text-white hero-btn mt-8 font-bold py-2 px-6 font-inter"
               to="/projects"
             >
               See Projects

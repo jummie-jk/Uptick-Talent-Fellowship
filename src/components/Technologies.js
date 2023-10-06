@@ -5,8 +5,8 @@ const Technologies = () => {
 
   return (
     <>
-      <div className=" bg-blue-primary text-white  py-12 font-PTSans">
-        <div className="px-28">
+      <div className=" bg-blue-primary text-white  py-12 font-PTSans ">
+        <div className="px-28 section-mobile">
           <p className="underline underline-offset-8 decoration-4 decoration-lightb text-[2.1rem] ">
             Technologies
           </p>
